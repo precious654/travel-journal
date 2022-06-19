@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+a{
+  color: #918E9B;
+}
+
+header{
+  padding: 10px;
+  background-color: #2D9CDB;
+  color: #FFFFFF;
+}
+
+.app{
+  inline-size: 80%;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.writing{
+  display: flex;
+  gap: 0.5rem;
+  margin-inline-start: 40%;
+}
+
+.picture{
+  border-radius: 12px;
+}
+
+.flex{
+  display: flex;
+}
+
+.section{
+  display: flex;
+  gap: 1rem;
+  inline-size: 50%;
+  margin-block-end: 2rem;
+}
+
+.write-top{
+  gap: 1rem;
+}
+
+.write-bottom{
+  gap: 0.5rem;
+  margin-block-end: 1rem;
+}
+
+.location{
+  margin-block-end: 1rem;
+  color: #4F4F4F;
+}
+
+.date{
+  font-weight: bold;
+  margin-block-end: 1rem;
+}
+
+.experience{
+  color: #828282;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.body{
+  margin-block-start: 30px;
+}
