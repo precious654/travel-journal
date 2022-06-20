@@ -5,7 +5,7 @@ function Section(props) {
   return (
     <div className="section">
       <div>
-        <img src={props.item.image} alt="pic" width="200" className="picture" />
+        <img src={props.item.image} alt="pic" width="1100" className="picture" />
       </div>
       <div>
         <div className="flex write-top">
